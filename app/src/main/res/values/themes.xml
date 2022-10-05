@@ -3,12 +3,12 @@
     <style name="Theme.IPlant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/jet_stream</item>
-        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorPrimaryVariant">@color/honey_dew</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/cal_poly_pomona_green</item>
         <item name="colorSecondaryVariant">@color/jet_stream</item>
-        <item name="colorOnSecondary">@color/honey_dew</item>
+        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
