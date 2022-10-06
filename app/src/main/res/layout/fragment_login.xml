@@ -61,7 +61,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias=".575"/>
+        app:layout_constraintVertical_bias=".575"
+        android:drawableStart="@drawable/user_icon"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/cal_poly_pomona_green"/>
 
     <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="350dp"
@@ -78,7 +81,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias=".675"/>
+        app:layout_constraintVertical_bias=".675"
+        android:drawableStart="@drawable/lock_icon"
+        android:drawableTint="@color/cal_poly_pomona_green"
+        android:drawablePadding="15dp" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:orientation="horizontal"
