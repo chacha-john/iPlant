@@ -121,6 +121,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
@@ -135,12 +136,13 @@
         app:layout_constraintVertical_bias=".875"/>
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewSignupLinkLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/signup_link"
         android:textColor="@color/grey"
         android:textColorLink="@color/cal_poly_pomona_green"
-        android:fontFamily="@font/poppins_bold"
+        android:fontFamily="@font/poppins_medium"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -152,7 +154,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/leaf_stalk"
         android:id="@+id/imageViewLeafStalkLogin"
-        android:rotation="-60"
+        android:rotation="-50"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
