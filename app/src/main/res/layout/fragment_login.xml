@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/honey_dew"
     tools:context=".LoginFragment">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -24,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/cal_poly_pomona_green"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:text="@string/welcome_back_login"
         android:fontFamily="@font/poppins_bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias=".475"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:fontFamily="@font/poppins_regular"/>
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -53,6 +52,9 @@
         android:id="@+id/editTextFullNameLogin"
         android:background="@drawable/edit_text_background"
         android:hint="@string/full_name_hint"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing=".0175"
         android:textColorHint="@color/cal_poly_pomona_green"
         android:inputType="textPersonName"
         app:layout_constraintTop_toTopOf="parent"
@@ -67,7 +69,10 @@
         android:id="@+id/editTextPasswordLogin"
         android:background="@drawable/edit_text_background"
         android:hint="@string/password_hint"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
         android:inputType="textPassword"
+        android:letterSpacing=".0175"
         android:textColorHint="@color/cal_poly_pomona_green"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -135,6 +140,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias=".95"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/leaf_stalk"
+        android:id="@+id/imageViewLeafStalkLogin"
+        android:rotation="-60"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.275"
+        app:layout_constraintVertical_bias=".475"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
