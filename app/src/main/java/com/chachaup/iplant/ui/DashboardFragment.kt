@@ -1,17 +1,20 @@
-package com.chachaup.iplant
+package com.chachaup.iplant.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-class SignupFragment : Fragment() {
+import com.chachaup.iplant.R
+
+class DashboardFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_signup, container, false)
+        return inflater.inflate(R.layout.fragment_dashboard, container, false)
     }
+
 
 }

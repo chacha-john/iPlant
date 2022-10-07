@@ -2,15 +2,19 @@
     <!-- Base application theme. -->
     <style name="Theme.IPlant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/jet_stream</item>
-        <item name="colorPrimaryVariant">@color/honey_dew</item>
+        <item name="colorPrimary">@color/cal_poly_pomona_green</item>
+        <item name="colorPrimaryVariant">@color/jet_stream</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/cal_poly_pomona_green</item>
         <item name="colorSecondaryVariant">@color/jet_stream</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowSplashScreenBackground">@color/jet_stream</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_background</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/jet_stream</item>
     </style>
 </resources>
