@@ -1,4 +1,4 @@
-package com.chachaup.iplant.ui
+package com.chachaup.iplant.auth.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

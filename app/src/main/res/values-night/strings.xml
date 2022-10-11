@@ -15,4 +15,5 @@
     <string name="confirmation_label">By signing up you agree to our <a href="">Terms of use</a> and <a href="">privacy notice</a></string>
     <string name="sign_up_button_text">Sign Up</string>
     <string name="login_link">Already have an account? <a href="">Login</a></string>
+    <string name="new_text">New text</string>
 </resources>
