@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "iPlant"
 include ':app'
+include ':iUser'
