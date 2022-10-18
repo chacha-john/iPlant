@@ -1,4 +1,4 @@
-package com.chachaup.iplant.auth.ui
+package com.chachaup.iplant.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,25 +7,27 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.databinding.DataBindingUtil
 import com.chachaup.iplant.R
 import com.chachaup.iplant.databinding.FragmentSignupBinding
 
 class SignupFragment : Fragment() {
-    private var _binding: FragmentSignupBinding? = null
-    private val binding get() = _binding!!
+    private lateinit var binding: FragmentSignupBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): ConstraintLayout {
-        _binding =  FragmentSignupBinding.inflate(inflater, container, false)
-        val view = binding.root
+    ): View {
+        binding =  DataBindingUtil.inflate(inflater, R.layout.fragment_signup, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         val fullName = binding.editTextFullNameCA
         val email = binding.editTextEmailCA
         val password = binding.editTextPasswordCA
         val confirmPassword = binding.editTextConfirmPasswordCA
-        val btnSignup = binding.buttonSignupCA
-
-        btnSignup.setOnClickListener{
+        binding.buttonSignupCA.setOnClickListener{
             if (!fullName.text.isNullOrBlank() && !email.text.isNullOrBlank() && !password.text.isNullOrBlank() && !confirmPassword.text.isNullOrBlank()){
                 Toast.makeText(context, "Welcome to Jumanji", Toast.LENGTH_SHORT).show()
             }
@@ -42,7 +44,6 @@ class SignupFragment : Fragment() {
                 confirmPassword.error = "Required"
             }
         }
-        return view
     }
 
 }

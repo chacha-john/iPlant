@@ -12,19 +12,20 @@ import com.chachaup.iuser.databinding.FragmentProfileBinding
 import com.chachaup.iuser.viewmodel.ProfileVM
 
 class ProfileFragment : Fragment() {
-    private var binding: FragmentProfileBinding? = null
+    private lateinit var binding: FragmentProfileBinding
     val viewModel: ProfileVM by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = DataBindingUtil.inflate(inflater,R.layout.fragment_profile, container, false)
+        binding = DataBindingUtil.inflate(layoutInflater,R.layout.fragment_profile, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
     }
 
 }

@@ -16,4 +16,7 @@
     <string name="sign_up_button_text">Sign Up</string>
     <string name="login_link">Already have an account? <a href="">Login</a></string>
     <string name="new_text">New text</string>
+    <string name="name_placeholder">Mtemi Nasaba Bora</string>
+    <string name="nickname_placeholder">Nyota ya Almasi</string>
+    <string name="email_placeholder">test@chachaup.com</string>
 </resources>

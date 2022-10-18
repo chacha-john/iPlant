@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/dashboardFragment">
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.chachaup.iplant.auth.ui.LoginFragment"
+        android:name="com.chachaup.iplant.ui.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.chachaup.iplant.auth.ui.SignupFragment"
+        android:name="com.chachaup.iplant.ui.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.chachaup.iplant.auth.ui.DashboardFragment"
+        android:name="com.chachaup.iplant.ui.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 </navigation>
