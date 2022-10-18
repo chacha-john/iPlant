@@ -5,17 +5,26 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.viewModels
 import com.chachaup.iuser.R
+import com.chachaup.iuser.databinding.FragmentProfileBinding
+import com.chachaup.iuser.viewmodel.ProfileVM
 
 class ProfileFragment : Fragment() {
-
+    private var binding: FragmentProfileBinding? = null
+    val viewModel: ProfileVM by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+    ): View {
+        binding = DataBindingUtil.inflate(inflater,R.layout.fragment_profile, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 
 }
