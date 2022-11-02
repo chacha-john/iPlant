@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+                                                        
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.SignupFragment" android:tag="layout/fragment_signup_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewRegisterCA"
+            android:text="@string/register_label"
+            android:textColor="@color/cal_poly_pomona_green"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="30sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias=".125" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDescriptionCA"
+            android:text="@string/create_account_label"
+            android:textSize="18sp"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/poppins_medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias=".2" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewLeafStalkCA"
+            android:src="@drawable/leaf_stalk"
+            android:rotation="-50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.275"
+            app:layout_constraintVertical_bias=".025" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextFullNameCA"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/full_name_hint"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing=".0175"
+            android:textColorHint="@color/cal_poly_pomona_green"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias=".275"
+            android:drawableStart="@drawable/user_icon"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/cal_poly_pomona_green" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEmailCA"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/email_hint"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing=".0175"
+            android:textColorHint="@color/cal_poly_pomona_green"
+            android:inputType="textEmailAddress"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias=".375"
+            android:drawableStart="@drawable/email_icon"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/cal_poly_pomona_green" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPasswordCA"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/password_hint"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:inputType="textPassword"
+            android:letterSpacing=".0175"
+            android:textColorHint="@color/cal_poly_pomona_green"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias=".475"
+            android:drawableStart="@drawable/lock_icon"
+            android:drawableTint="@color/cal_poly_pomona_green"
+            android:drawablePadding="15dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextConfirmPasswordCA"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/confirm_password_hint"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:inputType="textPassword"
+            android:letterSpacing=".0175"
+            android:textColorHint="@color/cal_poly_pomona_green"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias=".575"
+            android:drawableStart="@drawable/lock_icon"
+            android:drawableTint="@color/cal_poly_pomona_green"
+            android:drawablePadding="15dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewConfirmationDescriptionCA"
+            android:text="@string/confirmation_label"
+            android:textAlignment="center"
+            android:textColor="@color/cal_poly_pomona_green"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:textColorHint="@color/grey"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias=".675" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSignupCA"
+            android:text="@string/sign_up_button_text"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias=".875" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewLoginLinkCA"
+            android:text="@string/login_link"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/grey"
+            android:textColorLink="@color/cal_poly_pomona_green"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias=".95" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

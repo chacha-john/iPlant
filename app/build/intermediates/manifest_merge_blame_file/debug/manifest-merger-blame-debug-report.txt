@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chachaup.iplant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Permission will be merged into the manifest of the hosting app. -->
+14    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:13:5-77
+15-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:13:22-74
+16
+17    <application
+17-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:7:5-29:19
+18        android:allowBackup="true"
+18-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /home/chacha/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:9:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:10:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:14:9-35
+28        android:theme="@style/Theme.IPlant" >
+28-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:15:9-44
+29        <activity
+29-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:16:9-28:20
+30            android:name="com.chachaup.iplant.MainActivity"
+30-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:17:13-41
+31            android:exported="true" >
+31-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:18:13-36
+32            <intent-filter>
+32-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:20:17-69
+33-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:22:17-77
+35-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37
+38            <meta-data
+38-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:25:13-27:36
+39                android:name="android.app.lib_name"
+39-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:26:17-52
+40                android:value="" />
+40-->/home/chacha/AndroidStudioProjects/iPlant/app/src/main/AndroidManifest.xml:27:17-33
+41        </activity>
+42
+43        <uses-library
+43-->[androidx.window:window:1.0.0] /home/chacha/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.window.extensions"
+44-->[androidx.window:window:1.0.0] /home/chacha/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0] /home/chacha/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+46        <uses-library
+46-->[androidx.window:window:1.0.0] /home/chacha/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+47            android:name="androidx.window.sidecar"
+47-->[androidx.window:window:1.0.0] /home/chacha/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0] /home/chacha/.gradle/caches/transforms-3/59cc7bfaee96798b7702f2d6d4e8e0bd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+52            android:authorities="com.chachaup.iplant.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] /home/chacha/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/chacha/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/chacha/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/chacha/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+60            <meta-data
+60-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
+62                android:value="androidx.startup" />
+62-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
+63        </provider>
+64
+65        <receiver
+65-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
+66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+66-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
+67            android:directBootAware="false"
+67-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
+68            android:enabled="true"
+68-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
+69            android:exported="true"
+69-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
+70            android:permission="android.permission.DUMP" >
+70-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
+72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
+72-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/chacha/.gradle/caches/transforms-3/31fb9033abcc772f8a9eff9c1cd2ee59/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
+73            </intent-filter>
+74        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+75        <activity
+75-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:18:9-24:45
+76            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+76-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:19:13-100
+77            android:enabled="false"
+77-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:20:13-36
+78            android:exported="false"
+78-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:21:13-37
+79            android:launchMode="singleInstance"
+79-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:22:13-48
+80            android:process=":playcore_missing_splits_activity"
+80-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:23:13-64
+81            android:stateNotNeeded="true" />
+81-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:24:13-42
+82        <activity
+82-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:25:9-29:65
+83            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+83-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:26:13-93
+84            android:exported="false"
+84-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:27:13-37
+85            android:stateNotNeeded="true"
+85-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:28:13-42
+86            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+86-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:29:13-62
+87        <service
+87-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:32:9-39:19
+88            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+88-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:33:13-94
+89            android:enabled="false"
+89-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:34:13-36
+90            android:exported="true" >
+90-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:35:13-36
+91            <meta-data
+91-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:36:13-38:41
+92                android:name="com.google.android.play.core.assetpacks.versionCode"
+92-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:37:17-83
+93                android:value="11003" />
+93-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:38:17-38
+94        </service>
+95        <service
+95-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:40:9-43:40
+96            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+96-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:41:13-95
+97            android:enabled="false"
+97-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:42:13-36
+98            android:exported="false" />
+98-->[com.google.android.play:core:1.10.3] /home/chacha/.gradle/caches/transforms-3/064344059ae492c739d2443df1bae705/transformed/core-1.10.3/AndroidManifest.xml:43:13-37
+99    </application>
+100
+101</manifest>

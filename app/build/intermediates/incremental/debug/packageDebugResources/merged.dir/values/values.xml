@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amazon">#3F6A51</color>
+    <color name="black">#FF000000</color>
+    <color name="cal_poly_pomona_green">#184A2C</color>
+    <color name="green">#76B536</color>
+    <color name="grey">#C4C4C4</color>
+    <color name="honey_dew">#EBFDF2</color>
+    <color name="jet_stream">#C1DECB</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">iPlant</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="confirmation_label">By signing up you agree to our <a href="">Terms of use</a> and <a href="">privacy notice</a></string>
+    <string name="create_account_label">Create your new account</string>
+    <string name="email_hint">Email</string>
+    <string name="email_placeholder">test@chachaup.com</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_description">Login to your account</string>
+    <string name="login_link">Already have an account? <a href="">Login</a></string>
+    <string name="name_placeholder">Mtemi Nasaba Bora</string>
+    <string name="new_text">New text</string>
+    <string name="nickname_placeholder">Nyota ya Almasi</string>
+    <string name="password_hint">Password</string>
+    <string name="register_label">Register</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_up_button_text">Sign Up</string>
+    <string name="signup_link">Don\'t have an account? <a href="">Sign up</a></string>
+    <string name="welcome_back_login">Welcome back</string>
+    <style name="Theme.IPlant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/cal_poly_pomona_green</item>
+        <item name="colorPrimaryVariant">@color/jet_stream</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/cal_poly_pomona_green</item>
+        <item name="colorSecondaryVariant">@color/jet_stream</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        
+        <item name="android:windowSplashScreenBackground">@color/jet_stream</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_background</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/jet_stream</item>
+    </style>
+</resources>
