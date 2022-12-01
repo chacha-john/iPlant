@@ -92,39 +92,34 @@
             android:drawableTint="@color/cal_poly_pomona_green"
             android:drawablePadding="15dp" />
 
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:orientation="horizontal"
-            android:layout_width="350dp"
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/textViewRememberMeLogin"
+            android:text="@string/remember_me"
+            android:textColor="@color/cal_poly_pomona_green"
+            app:layout_constraintStart_toStartOf="@id/textViewForgotPassword"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias=".75"
-            app:showDividers="middle"
-            app:divider="@drawable/divider">
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textViewRememberMeLogin"
-                android:text="@string/remember_me"
-                android:textColor="@color/cal_poly_pomona_green"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:fontFamily="@font/poppins_medium" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewForgotPassword"
+            android:text="@string/forgot_password"
+            android:fontFamily="@font/poppins_medium"
+            app:layout_constraintBaseline_toBaselineOf="@id/textViewRememberMeLogin"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/textViewRememberMeLogin"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/cal_poly_pomona_green" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textViewForgotPassword"
-                android:text="@string/forgot_password"
-                android:fontFamily="@font/poppins_medium"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:textColor="@color/cal_poly_pomona_green" />
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonLogin"
