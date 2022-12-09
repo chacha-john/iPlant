@@ -1,0 +1,3 @@
+> Application seeks to save data to db and read from db
+ > this will be implemented by simulating a signup network request except this will store the data to room db
+ > login will involve checking if the login details match the ones supplied

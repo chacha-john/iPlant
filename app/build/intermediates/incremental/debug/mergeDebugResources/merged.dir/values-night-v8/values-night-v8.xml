@@ -19,6 +19,7 @@
     <string name="sign_up_button_text">Sign Up</string>
     <string name="signup_link">Don\'t have an account? <a href="">Sign up</a></string>
     <string name="welcome_back_login">Welcome back</string>
+    <style name="Base.Theme.SplashScreen.DayNight" parent="Base.Theme.SplashScreen"/>
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>

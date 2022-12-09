@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.chachaup.iplant.app-mergeDebugResources-74:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/home/chacha/.gradle/caches/transforms-3/e10c952e29bdaea4aaa6d12bf10d3f3b/transformed/core-splashscreen-1.0.0/res/values-v29/values-v29.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,374",
+                        "endLines": "6,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "369,464"
+                    }
+                }
+            ]
+        }
+    ]
+}

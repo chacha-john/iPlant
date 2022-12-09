@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.chachaup.iplant.R
 import com.chachaup.iplant.databinding.FragmentLoginBinding
 
@@ -23,6 +24,11 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.apply {
+            textViewSignupLinkLogin.setOnClickListener{
+                findNavController().navigate(R.id.action_loginFragment_to_signupFragment)
+            }
+        }
     }
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
     <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
@@ -37,8 +37,28 @@
     <string name="clear_text_end_icon_content_description">စာသား ဖယ်ရှားရန်</string>
     <string msgid="406453423630273620" name="close_drawer">"လမ်းညွှန် မီနူး ပိတ်ရန်"</string>
     <string msgid="7573152094250666567" name="close_sheet">"စာမျက်နှာ ပိတ်ရန်"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">ဖွင့်ရန်</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play ဝန်ဆောင်မှုများကို မဖွင့်သ၍ %1$s သည်အလုပ်လုပ်မည်မဟုတ်ပါ။</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play ဝန်ဆောင်မှုများ ဖွင့်ရန်</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">ထည့်သွင်းပါ</string>
+    <string name="common_google_play_services_install_text">သင့်တက်ဘလက်တွင် Google Play ဝန်ဆောင်မှုများမရှိသောကြောင့် %1$s ကိုဖွင့်၍မရပါ။</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play ဝန်ဆောင်မှုများရယူရန်</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ဝန်ဆောင်မှုများ ရရှိနိုင်သည်</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ဝန်ဆောင်မှုများ အမှား</string>
+    <string name="common_google_play_services_unknown_issue">%1$s သည် Google Play ဝန်ဆောင်မှုများနှင့် ပြဿနာအနည်းငယ် ရှိနေပါသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="common_google_play_services_unsupported_text">Google Play ဝန်ဆောင်မှုများကို သင့်စက်ပစ္စည်းတွင် ပံ့ပိုးမထားသည့်အတွက် ၎င်းမရှိဘဲ %1$s ကို ဖွင့်၍မရပါ။</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">အပ်ဒိတ်</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play ဝန်ဆောင်မှုများအား အပ်ဒိတ်မလုပ်ပါက %1$s အလုပ်လုပ်မည် မဟုတ်ပါ။</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play ဝန်ဆောင်မှုများကို အပ်ဒိတ်လုပ်ရန်</string>
+    <string name="common_google_play_services_updating_text">Google Play ဝန်ဆောင်မှုများကို လက်ရှိအပ်ဒိတ်လုပ်နေသောကြောင့် %1$s ကိုဖွင့်၍ရမည်မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ဝန်ဆောင်မှုဗားရှင်းအသစ်များ လိုအပ်နေသည်။ အချိန်အနည်းငယ်အကြာတွင် ၎င်းကိုယ်တိုင်အပ်ဒိတ်လုပ်ပါ လိမ့်မည်။</string>
+    <string name="common_open_on_phone">ဖုန်းပေါ်မှာ ဖွင့်ပါ</string>
+    <string name="common_signin_button_text">လက်မှတ်ထိုး ဝင်ရန်</string>
+    <string name="common_signin_button_text_long">Google ဖြင့် လက်မှတ်ထိုးဝင်ရေ</string>
+    <string msgid="6083905920877235314" name="copy">"မိတ္တူကူးရန်"</string>
     <string msgid="8038256446254964252" name="default_error_message">"ထည့်သွင်းမှု မမှန်ကန်ပါ"</string>
     <string name="error_icon_content_description">အမှား</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"အဆင့်မြင့်"</string>
     <string name="exposed_dropdown_menu_content_description">ဆွဲချမီနူးကို ပြရန်</string>
     <string name="icon_content_description">ဒိုင်ယာလော့ခ် သင်္ကေတ</string>
     <string msgid="6827826412747255547" name="in_progress">"ဆောင်ရွက်နေဆဲ"</string>
@@ -61,11 +81,12 @@
     <string name="material_timepicker_text_input_mode_description">အချိန်ထည့်သွင်းရန် စာသားထည့်သွင်းမှုမုဒ်သို့ ပြောင်းပါ။</string>
     <string name="mtrl_badge_numberless_content_description">အကြောင်းကြားချက်အသစ်</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s ကို ဖယ်ရှားရန်</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">အကြောင်းကြားချက်အသစ် %1$d ခု အထက်</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">အကြောင်းကြားချက်အသစ် %1$d ခု အထက်</string>
     <string name="mtrl_picker_a11y_next_month">နောက်လသို့ ပြောင်းရန်</string>
     <string name="mtrl_picker_a11y_prev_month">ယခင်လသို့ ပြောင်းရန်</string>
     <string name="mtrl_picker_announce_current_selection">လက်ရှိ ရွေးချယ်မှု- %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_cancel">ပယ်ဖျက်ရန်</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">ရက်စွဲ ရွေးပါ</string>
     <string name="mtrl_picker_date_header_unselected">ရွေးထားသည့် ရက်စွဲ</string>
@@ -92,19 +113,26 @@
     <string name="mtrl_picker_toggle_to_day_selection">ရက်ရွေးချယ်ခြင်းသို့ ပြောင်းရန် တို့ပါ</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">စာသား ထည့်သွင်းမှုမုဒ်သို့ ပြောင်းရန်</string>
     <string name="mtrl_picker_toggle_to_year_selection">နှစ်ရွေးချယ်ခြင်းသို့ ပြောင်းရန် တို့ပါ</string>
+    <string name="mtrl_timepicker_cancel">မလုပ်တော့</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"အပေါ်သို့ ရွှေ့ရန်"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"လမ်းကြောင်းပြ အံဆွဲကို ဖွင့်ရန်"</string>
     <string msgid="542007171693138492" name="navigation_menu">"လမ်းညွှန် မီနူး"</string>
     <string msgid="6610465462668679431" name="not_selected">"ရွေးမထားပါ"</string>
+    <string msgid="6573031135582639649" name="not_set">"သတ်မှတ်မထားပါ"</string>
     <string msgid="875452955155264703" name="off">"ပိတ်"</string>
     <string msgid="4702104660890557116" name="ok">"OK"</string>
     <string msgid="8655164131929253426" name="on">"ဖွင့်"</string>
     <string name="password_toggle_content_description">စကားဝှက်ကို ပြရန်</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ကို ကလစ်ဘုတ်သို့ မိတ္တူကူးယူပြီးပါပြီ။"</string>
     <string msgid="8366783942222789124" name="progress">"တိုးတက်မှု−"</string>
     <string msgid="1065327189183624288" name="retry">"ထပ်စမ်းရန်"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ရှာဖွေမှု"</string>
     <string msgid="6043586758067023" name="selected">"ရွေးထားသည်"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"၉၉၉+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>၊ <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string msgid="1672349317127674378" name="tab">"တဘ်"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> ရာခိုင်နှုန်း။"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ပိတ်"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ဖွင့်"</string>
 </resources>

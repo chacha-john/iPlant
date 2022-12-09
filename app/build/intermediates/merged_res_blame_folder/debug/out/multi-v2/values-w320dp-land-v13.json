@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.chachaup.iplant.app-mergeDebugResources-65:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.chachaup.iplant.app-mergeDebugResources-74:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/chacha/.gradle/caches/transforms-3/0700c079a9361c9bc5e6404d34690c50/transformed/material-1.6.1/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "/home/chacha/.gradle/caches/transforms-3/53edefe15d403f8467620aa121e38059/transformed/material-1.7.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

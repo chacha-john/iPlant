@@ -11,8 +11,8 @@ import androidx.appcompat.widget.AppCompatTextView;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.chachaup.iplant.ProfileViewModel;
 import com.chachaup.iplant.R;
+import com.chachaup.iplant.vm.IPlantViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -30,7 +30,7 @@ public abstract class FragmentDashboardBinding extends ViewDataBinding {
   public final AppCompatTextView textViewNickName;
 
   @Bindable
-  protected ProfileViewModel mViewmodel;
+  protected IPlantViewModel mViewmodel;
 
   protected FragmentDashboardBinding(Object _bindingComponent, View _root, int _localFieldCount,
       AppCompatImageView dp, AppCompatTextView textViewEmail, AppCompatTextView textViewName,
@@ -42,10 +42,10 @@ public abstract class FragmentDashboardBinding extends ViewDataBinding {
     this.textViewNickName = textViewNickName;
   }
 
-  public abstract void setViewmodel(@Nullable ProfileViewModel viewmodel);
+  public abstract void setViewmodel(@Nullable IPlantViewModel viewmodel);
 
   @Nullable
-  public ProfileViewModel getViewmodel() {
+  public IPlantViewModel getViewmodel() {
     return mViewmodel;
   }
 
