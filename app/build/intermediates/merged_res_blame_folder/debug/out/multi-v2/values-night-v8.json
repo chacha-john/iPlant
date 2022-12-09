@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.chachaup.iplant.app-mergeDebugResources-74:/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-mergeDebugResources-74:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/chacha/AndroidStudioProjects/iPlant/app/src/main/res/values-night/strings.xml",
@@ -81,6 +81,90 @@
                         "startOffsets": "55,130,241,330,431,538,645,744,847,935,1059,1161,1263,1379,1481,1595,1723,1839,1961,2097,2217,2351,2471,2583,2709,2826,2950,3080,3202,3340,3474,3590",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "125,236,325,426,533,640,739,842,930,1054,1156,1258,1374,1476,1590,1718,1834,1956,2092,2212,2346,2466,2578,2704,2821,2945,3075,3197,3335,3469,3585,3705"
+                    },
+                    "to": {
+                        "startLines": "46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,78",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2963,3038,3149,3238,3339,3446,3553,3652,3755,3843,3967,4069,4171,4287,4389,4503,4631,4747,4869,5005,5125,5259,5379,5491,5706,5823,5947,6077,6199,6337,6471,6587",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "3033,3144,3233,3334,3441,3548,3647,3750,3838,3962,4064,4166,4282,4384,4498,4626,4742,4864,5000,5120,5254,5374,5486,5612,5818,5942,6072,6194,6332,6466,6582,6702"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.chachaup.iplant.app-mergeDebugResources-74:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/home/chacha/AndroidStudioProjects/iPlant/app/src/main/res/values-night/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,262,335,380,444,505,558,610,678,763,826,872,937,988,1040,1092,1148,1235",
+                        "endColumns": "66,139,72,44,63,60,52,51,67,84,62,45,64,50,51,51,55,86,59",
+                        "endOffsets": "117,257,330,375,439,500,553,605,673,758,821,867,932,983,1035,1087,1143,1230,1290"
+                    }
+                },
+                {
+                    "source": "/home/chacha/.gradle/caches/transforms-3/e10c952e29bdaea4aaa6d12bf10d3f3b/transformed/core-splashscreen-1.0.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1295",
+                        "endColumns": "85",
+                        "endOffsets": "1376"
+                    }
+                },
+                {
+                    "source": "/home/chacha/.gradle/caches/transforms-3/35247393b79a5fe3c4f500e2adf3d76f/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,70",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1381,1451,1535,1619,1715,1817,1919,5617",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "1446,1530,1614,1710,1812,1914,2008,5701"
+                    }
+                },
+                {
+                    "source": "/home/chacha/AndroidStudioProjects/iPlant/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "53",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "1119"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "2013",
+                        "endLines": "45",
+                        "endColumns": "12",
+                        "endOffsets": "2958"
+                    }
+                },
+                {
+                    "source": "/home/chacha/.gradle/caches/transforms-3/53edefe15d403f8467620aa121e38059/transformed/material-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,78",

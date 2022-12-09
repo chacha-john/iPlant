@@ -21,7 +21,7 @@ public abstract class FragmentLoginBinding extends ViewDataBinding {
   public final AppCompatButton buttonLogin;
 
   @NonNull
-  public final AppCompatEditText editTextFullNameLogin;
+  public final AppCompatEditText editTextEmailLogin;
 
   @NonNull
   public final AppCompatEditText editTextPasswordLogin;
@@ -48,14 +48,14 @@ public abstract class FragmentLoginBinding extends ViewDataBinding {
   public final AppCompatTextView textViewSignupLinkLogin;
 
   protected FragmentLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      AppCompatButton buttonLogin, AppCompatEditText editTextFullNameLogin,
+      AppCompatButton buttonLogin, AppCompatEditText editTextEmailLogin,
       AppCompatEditText editTextPasswordLogin, AppCompatTextView headerTextLogin,
       AppCompatImageView imageViewBannerLogin, AppCompatImageView imageViewLeafStalkLogin,
       AppCompatTextView textViewDescriptionLogin, AppCompatTextView textViewForgotPassword,
       AppCompatTextView textViewRememberMeLogin, AppCompatTextView textViewSignupLinkLogin) {
     super(_bindingComponent, _root, _localFieldCount);
     this.buttonLogin = buttonLogin;
-    this.editTextFullNameLogin = editTextFullNameLogin;
+    this.editTextEmailLogin = editTextEmailLogin;
     this.editTextPasswordLogin = editTextPasswordLogin;
     this.headerTextLogin = headerTextLogin;
     this.imageViewBannerLogin = imageViewBannerLogin;

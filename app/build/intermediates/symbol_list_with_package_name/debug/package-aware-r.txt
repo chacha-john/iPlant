@@ -3034,8 +3034,8 @@ id easeOut
 id east
 id editTextConfirmPasswordCA
 id editTextEmailCA
+id editTextEmailLogin
 id editTextFullNameCA
-id editTextFullNameLogin
 id editTextPasswordCA
 id editTextPasswordLogin
 id edit_query

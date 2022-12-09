@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.chachaup.iplant.data.IPlantDao
 import com.chachaup.iplant.data.IPlantRepository
 import com.chachaup.iplant.data.model.User
 import kotlinx.coroutines.launch
@@ -33,6 +32,13 @@ class IPlantViewModel(private val iPlantRepository: IPlantRepository): ViewModel
     fun addUser(name: String, email: String, pass:String) = viewModelScope.launch{
         val user = User(0,name,email,pass)
         iPlantRepository.newUser(user)
+    }
+
+    fun login(email: String, pass: String) = viewModelScope.launch{
+        val user: User = iPlantRepository.findByEmail(email)
+        if (user.password == pass){
+            iPlantRepository.login(email, pass)
+        }
     }
 
 

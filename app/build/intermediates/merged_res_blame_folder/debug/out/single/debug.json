@@ -1,186 +1,190 @@
 [
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_button_background.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/button_background.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_divider.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/divider.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable-nodpi_leaf_stalk.png.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable-nodpi/leaf_stalk.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher_background.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_email_icon.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/email_icon.xml"
+    },
+    {
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/font_poppins_regular.ttf.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.chachaup.iplant.app-merged_res-76:/layout_fragment_login.xml.flat",
         "source": "com.chachaup.iplant.app-main-78:/layout/fragment_login.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable-nodpi_leaves.jpg.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable-nodpi/leaves.jpg"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/font_poppins_regular.ttf.flat",
-        "source": "com.chachaup.iplant.app-main-78:/font/poppins_regular.ttf"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/font_poppins_medium.ttf.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/font/poppins_medium.ttf"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/ic_launcher_background.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/xml_backup_rules.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_button_background.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/button_background.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher_background.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher_background.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/font_poppins_semi_bold.ttf.flat",
-        "source": "com.chachaup.iplant.app-main-78:/font/poppins_semi_bold.ttf"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/layout_fragment_signup.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/fragment_signup.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_lock_icon.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/lock_icon.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable-nodpi_plant.png.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable-nodpi/plant.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_banner.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/banner.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_banner.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/banner.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable-nodpi_plant.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable-nodpi/plant.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_lock_icon.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/lock_icon.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/layout_fragment_login.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/fragment_login.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher_background.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher_background.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable-nodpi_leaf_stalk.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable-nodpi/leaf_stalk.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_divider.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/divider.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/layout_activity_main.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/layout/activity_main.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/layout_activity_main.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/activity_main.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/font_poppins_medium.ttf.flat",
-        "source": "com.chachaup.iplant.app-main-78:/font/poppins_medium.ttf"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/layout_fragment_dashboard.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/layout/fragment_dashboard.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_user_icon.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/user_icon.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/navigation_nav_graph.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/navigation/nav_graph.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/font_poppins_bold.ttf.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/font/poppins_bold.ttf"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable-nodpi_leaves.jpg.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable-nodpi/leaves.jpg"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_email_icon.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/email_icon.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/font_poppins_bold.ttf.flat",
-        "source": "com.chachaup.iplant.app-main-78:/font/poppins_bold.ttf"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_user_icon.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/user_icon.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/font_poppins_semi_bold.ttf.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/font/poppins_semi_bold.ttf"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/layout_fragment_signup.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/layout/fragment_signup.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_edit_text_background.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/edit_text_background.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/xml_backup_rules.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/xml/backup_rules.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/xml_data_extraction_rules.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/xml/data_extraction_rules.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_edit_text_background.xml.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/edit_text_background.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/navigation_nav_graph.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/layout_fragment_dashboard.xml.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher_background.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher_background.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/drawable_dp.jpg.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/drawable/dp.jpg"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_background.png.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-xxhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/drawable_dp.jpg.flat",
-        "source": "com.chachaup.iplant.app-main-78:/drawable/dp.jpg"
-    },
-    {
-        "merged": "com.chachaup.iplant.app-merged_res-76:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.chachaup.iplant.app-debug-77:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-merged_res-76:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-debug-77:/mipmap-xhdpi/ic_launcher.png"
     }
 ]

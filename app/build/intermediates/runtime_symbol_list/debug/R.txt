@@ -3033,8 +3033,8 @@ int id easeOut 0x7f0900b7
 int id east 0x7f0900b8
 int id editTextConfirmPasswordCA 0x7f0900b9
 int id editTextEmailCA 0x7f0900ba
+int id editTextEmailLogin 0x7f090224
 int id editTextFullNameCA 0x7f0900bb
-int id editTextFullNameLogin 0x7f0900bc
 int id editTextPasswordCA 0x7f0900bd
 int id editTextPasswordLogin 0x7f0900be
 int id edit_query 0x7f0900bf

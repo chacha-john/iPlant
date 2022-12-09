@@ -1,18 +1,22 @@
 [
     {
-        "merged": "com.chachaup.iplant.app-mergeDebugResources-75:/layout/fragment_signup.xml",
-        "source": "com.chachaup.iplant.app-main-78:/layout/fragment_signup.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-mergeDebugResources-75:/layout/activity_main.xml",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/activity_main.xml"
     },
     {
-        "merged": "com.chachaup.iplant.app-mergeDebugResources-75:/layout/fragment_dashboard.xml",
-        "source": "com.chachaup.iplant.app-main-78:/layout/fragment_dashboard.xml"
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-mergeDebugResources-75:/layout/fragment_login.xml",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-mergeDebugResources-75:/layout/fragment_dashboard.xml",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-mergeDebugResources-75:/layout/fragment_signup.xml",
+        "source": "/home/chacha/.gradle/daemon/7.4/com.chachaup.iplant.app-main-78:/layout/fragment_signup.xml"
     },
     {
         "merged": "com.chachaup.iplant.app-mergeDebugResources-75:/layout/fragment_login.xml",
         "source": "com.chachaup.iplant.app-main-78:/layout/fragment_login.xml"
-    },
-    {
-        "merged": "com.chachaup.iplant.app-mergeDebugResources-75:/layout/activity_main.xml",
-        "source": "com.chachaup.iplant.app-main-78:/layout/activity_main.xml"
     }
 ]

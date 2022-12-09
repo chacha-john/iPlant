@@ -10,4 +10,8 @@ class IPlantRepository(private val iPlantDao: IPlantDao) {
     suspend fun findByEmail(email: String): User{
         return iPlantDao.findByEmail(email)
     }
+
+    suspend fun login(email: String, pass: String): Boolean {
+        return true
+    }
 }

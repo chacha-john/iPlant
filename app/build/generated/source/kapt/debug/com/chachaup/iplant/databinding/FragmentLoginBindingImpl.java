@@ -17,7 +17,7 @@ public class FragmentLoginBindingImpl extends FragmentLoginBinding  {
         sViewsWithIds.put(R.id.imageViewBannerLogin, 1);
         sViewsWithIds.put(R.id.headerTextLogin, 2);
         sViewsWithIds.put(R.id.textViewDescriptionLogin, 3);
-        sViewsWithIds.put(R.id.editTextFullNameLogin, 4);
+        sViewsWithIds.put(R.id.editTextEmailLogin, 4);
         sViewsWithIds.put(R.id.editTextPasswordLogin, 5);
         sViewsWithIds.put(R.id.textViewRememberMeLogin, 6);
         sViewsWithIds.put(R.id.textViewForgotPassword, 7);

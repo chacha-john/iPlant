@@ -1,8 +1,7 @@
 package com.chachaup.iplant
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.chachaup.iplant.R
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

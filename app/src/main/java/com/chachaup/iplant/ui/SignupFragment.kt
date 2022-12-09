@@ -1,15 +1,13 @@
 package com.chachaup.iplant.ui
 
-import android.app.Activity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import com.chachaup.iplant.IPlantApplication
 import com.chachaup.iplant.R
 import com.chachaup.iplant.databinding.FragmentSignupBinding
@@ -35,11 +33,12 @@ class SignupFragment : Fragment() {
         binding.apply {
             buttonSignupCA.setOnClickListener{
                 sharedViewModel.addUser(editTextFullNameCA.text.toString(),editTextEmailCA.text.toString(),editTextPasswordCA.text.toString())
-                toast("success")
+                toast("Account created successfully")
                 editTextEmailCA.text?.clear()
                 editTextPasswordCA.text?.clear()
                 editTextFullNameCA.text?.clear()
                 editTextConfirmPasswordCA.text?.clear()
+                findNavController().navigate(R.id.action_signupFragment_to_loginFragment2)
             }
         }
     }
