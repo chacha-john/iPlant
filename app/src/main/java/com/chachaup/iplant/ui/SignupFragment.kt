@@ -36,6 +36,10 @@ class SignupFragment : Fragment() {
             buttonSignupCA.setOnClickListener{
                 sharedViewModel.addUser(editTextFullNameCA.text.toString(),editTextEmailCA.text.toString(),editTextPasswordCA.text.toString())
                 toast("success")
+                editTextEmailCA.text?.clear()
+                editTextPasswordCA.text?.clear()
+                editTextFullNameCA.text?.clear()
+                editTextConfirmPasswordCA.text?.clear()
             }
         }
     }
