@@ -10,9 +10,13 @@
 
     </data>
 
+<!--    This layout was just for testing whether the login button indeed navigates to the dashboard when required to
+it implements no specific conversion of design.-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/cal_poly_pomona_green"
         tools:context=".ui.DashboardFragment">
 
         <androidx.appcompat.widget.LinearLayoutCompat
